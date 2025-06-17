@@ -32,6 +32,9 @@ const Index = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
+              <div className="text-blue-300 text-lg font-medium mb-4 uppercase tracking-wide">
+                Tech x Transformations
+              </div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
                 Technology Solutions That 
                 <span className="text-blue-300"> Drive Results</span>

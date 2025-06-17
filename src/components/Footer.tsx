@@ -9,11 +9,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
+            <div className="flex items-center space-x-2 mb-2">
               <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-3 py-1 rounded-lg font-bold text-xl">
                 A
               </div>
               <span className="text-xl font-bold">Avadyne</span>
+            </div>
+            <div className="text-blue-300 text-sm font-medium mb-4 uppercase tracking-wide">
+              Tech x Transformations
             </div>
             <p className="text-gray-300 mb-4">
               Delivering high-impact technology solutions tailored to your business goals.
