@@ -1,11 +1,14 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle, Zap, Shield, Globe } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
+console.log('Index.tsx is loading');
+
 const Index = () => {
+  console.log('Index component is rendering');
+  
   const stats = [
     { number: '50+', label: 'Projects Delivered' },
     { number: '24/7', label: 'Support Available' },
